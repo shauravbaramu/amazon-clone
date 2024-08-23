@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
-
 }
 
 header {
@@ -19,3 +18,53 @@ header {
     color: white;
 }
 
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allows the search bar to expand */
+    max-width: 650px; /* Optional: Set a max width to control the overall size */
+}
+
+.search-bar input {
+    padding: 10px;
+    flex-grow: 1; /* Ensures the input field expands to take up available space */
+    border: none;
+    border-radius: 3px 0 0 3px; /* Adjust the border-radius to match the button */
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px; /* Make sure the button height matches the input field */
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 3px 3px 0; /* Match the border-radius with the input field */
+    cursor: pointer;
+    font-size: 16px; /* Ensure the font size matches the input field */
+}
+
+.user-options span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #131a22;
+    padding: 10px;
+    color: white;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
