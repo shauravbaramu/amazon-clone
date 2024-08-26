@@ -10,7 +10,8 @@ body {
 }
 
 header {
-    background-color: #232f3e;
+    
+    background-color: #131a22;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -52,7 +53,7 @@ header {
 }
 
 nav {
-    background-color: #131a22;
+    background-color: #232f3e;
     padding: 10px;
     color: white;
 }
